@@ -40,6 +40,9 @@ else
 
         # If yes, then delete any previous applied rules
         echo -n "[INFO] Removing all old iptables rules, if any... "
+        sudo ip addr add 192.168.0.141/24 dev lo  # For CP (AMF/SMF)
+        sudo ip addr add 192.168.0.142/24 dev lo  # For UPF
+        sudo ip addr add 192.168.0.121/24 dev lo  # For GNB
         sudo iptables -P INPUT ACCEPT
         sudo iptables -P FORWARD ACCEPT
         sudo iptables -P OUTPUT ACCEPT

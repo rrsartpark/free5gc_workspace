@@ -16,6 +16,7 @@ configuration:
   serviceList: # the SBI services provided by this NEF
     - serviceName: nnef-pfdmanagement # Nnef_PFDManagement Service
     - serviceName: nnef-oam # OAM service
+    - serviceName: 3gpp-monitoring-event # T8 Monitoring Event subscription (TS 29.122 section 5.13)
 
 logger: # log output setting
   enable: true # true or false
