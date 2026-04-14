@@ -1,33 +1,9 @@
-[submodule "amf"]
-	path = NFs/amf
-	url = https://github.com/free5gc/amf.git
-[submodule "ausf"]
-	path = NFs/ausf
-	url = https://github.com/free5gc/ausf.git
 [submodule "n3iwf"]
 	path = NFs/n3iwf
 	url = https://github.com/free5gc/n3iwf.git
 [submodule "nrf"]
 	path = NFs/nrf
 	url = https://github.com/free5gc/nrf.git
-[submodule "nssf"]
-	path = NFs/nssf
-	url = https://github.com/free5gc/nssf.git
-[submodule "pcf"]
-	path = NFs/pcf
-	url = https://github.com/free5gc/pcf.git
-[submodule "smf"]
-	path = NFs/smf
-	url = https://github.com/free5gc/smf.git
-[submodule "udm"]
-	path = NFs/udm
-	url = https://github.com/free5gc/udm.git
-[submodule "udr"]
-	path = NFs/udr
-	url = https://github.com/free5gc/udr.git
-[submodule "upf"]
-	path = NFs/upf
-	url = https://github.com/free5gc/go-upf.git
 [submodule "webconsole"]
 	path = webconsole
 	url = https://github.com/free5gc/webconsole.git
@@ -43,3 +19,27 @@
 [submodule "NFs/bsf"]
 	path = NFs/bsf
 	url = https://github.com/free5gc/bsf.git
+[submodule "NFs/pcf"]
+	path = NFs/pcf
+	url = https://github.com/rrsartpark/pcf.git
+[submodule "NFs/smf"]
+	path = NFs/smf
+	url = https://github.com/rrsartpark/smf.git
+[submodule "NFs/upf"]
+	path = NFs/upf
+	url = https://github.com/rrsartpark/upf.git
+[submodule "NFs/nssf"]
+	path = NFs/nssf
+	url = https://github.com/rrsartpark/nssf.git
+[submodule "NFs/amf"]
+	path = NFs/amf
+	url = https://github.com/rrsartpark/amf.git
+[submodule "NFs/udm"]
+	path = NFs/udm
+	url = https://github.com/rrsartpark/udm.git
+[submodule "NFs/udr"]
+	path = NFs/udr
+	url = https://github.com/rrsartpark/udr.git
+[submodule "NFs/ausf"]
+	path = NFs/ausf
+	url = https://github.com/rrsartpark/ausf.git
