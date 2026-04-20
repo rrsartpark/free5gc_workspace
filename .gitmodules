@@ -18,7 +18,7 @@
 	url = https://github.com/rrsartpark/nef.git
 [submodule "NFs/bsf"]
 	path = NFs/bsf
-	url = https://github.com/free5gc/bsf.git
+	url = https://github.com/rrsartpark/bsf.git
 [submodule "NFs/pcf"]
 	path = NFs/pcf
 	url = https://github.com/rrsartpark/pcf.git
