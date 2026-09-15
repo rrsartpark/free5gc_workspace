@@ -43,13 +43,13 @@ configuration:
   # Optional: PLMN IDs configuration.
   plmnList:
     - mcc: 001 # Mobile Country Code (3 digits string, digit: 0~9)
-      mnc: 01 # Mobile Network Code (2 or 3 digits string, digit: 0~9)
+      mnc: 04 # Mobile Network Code (2 or 3 digits string, digit: 0~9)
   locality: area1 # Name of the location where a set of AMF, SMF, PCF and UPFs are located
 
   # PFCP (Packet Forwarding Control Protocol) configuration for N4 interface.
   pfcp:
     # addr config is deprecated in smf config v1.0.3, please use the following config
-    nodeID: 192.168.0.141 #(RRS 31/03/26) 127.0.0.1 # the Node ID of this SMF
+    nodeID: 192.168.0.141 #(RRS 31/03/26) 127.0.0.1 # the Node ID of this SMF # 192.168.0.141
     listenAddr: 192.168.0.141 # 127.0.0.1 # the IP/FQDN of N4 interface on this SMF (PFCP)
     externalAddr: 192.168.0.141 # 127.0.0.1 # the IP/FQDN of N4 interface on this SMF (PFCP)
     assocFailAlertInterval: 10s
@@ -91,7 +91,7 @@ configuration:
         interfaces: # Interface list for this UPF
           - interfaceType: N3 # the type of the interface (N3 or N9)
             endpoints: # the IP address of this N3/N9 interface on this UPF
-              - 192.168.0.142 # (RRS 31/03/26)127.0.0.8
+              - 192.168.0.142 # (RRS 23/06/26)192.168.0.142 #(RRS 31/03/26)127.0.0.8 # 192.168.40.100
             networkInstances: # Data Network Name (DNN)
               - internet
 

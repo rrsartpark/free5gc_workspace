@@ -19,7 +19,7 @@ configuration:
     oauth: true
   DefaultPlmnId:
     mcc: 001 # Mobile Country Code (3 digits string, digit: 0~9)
-    mnc: 01 # Mobile Network Code (2 or 3 digits string, digit: 0~9)
+    mnc: 04 # Mobile Network Code (2 or 3 digits string, digit: 0~9) # (RRS 25/06/26)
   serviceNameList: # the SBI services provided by this NRF, refer to TS 29.510
     - nnrf-nfm # Nnrf_NFManagement service
     - nnrf-disc # Nnrf_NFDiscovery service
